@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-"""pings an ip address passed as an arguement"""
+#pings an ip address passed as an arguement
 
 if [ $# -eq 0 ]
 then
