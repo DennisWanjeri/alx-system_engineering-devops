@@ -1,12 +1,7 @@
 #!/usr/bin/python3
-"""
-uses a REST API to return inforamtion about an employee given their
-employee ID
-"""
-import requests
-import sys
+"""Exports to-do list information of all employees to JSON format."""
 import json
-
+import requests
 
 if __name__ == "__main__":
     url = "https://jsonplaceholder.typicode.com/"
